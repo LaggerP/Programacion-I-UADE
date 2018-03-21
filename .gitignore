@@ -1,0 +1,26 @@
+
+*.sqlite
+.gitattributes
+*.json
+.gitattributes
+.vs/Programacion-I-/v15/.suo
+*.db
+Clase 14-03-2018/Primer Programa - inicio clase/.vs/Primer Programa - inicio clase/v15/.suo
+*.ipch
+*.exe
+*.ilk
+*.pdb
+*.sln
+*.obj
+*.tlog
+*.vcxproj
+*.filters
+*.opendb
+TP no obligatorio/Unidad 1 punto 4/.vs/Unidad 1 punto 4/v15/.suo
+*.idb
+*.log
+TP no obligatorio/Unidad 1 punto 3/.vs/Unidad 1 punto 3/v15/.suo
+TP no obligatorio/Unidad 1 punto 2/.vs/Unidad 1 punto 2/v15/.suo
+TP no obligatorio/Unidad 1 punto 1/.vs/Unidad 1 punto 1/v15/.suo
+TP no obligatorio/.vs/TP no obligatorio/v15/.suo
+Clase 21-03-2018/.vs/Clase 21-03-2018/v15/.suo
