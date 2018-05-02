@@ -22,7 +22,7 @@
 
 //funciones
 void ingresarCadena(char cadena[], int n, char mensaje[]);
-int separarCadena(char cadena[], char cadenaAux[]);
+void separarCadena(char cadena[], char cadenaAux[]);
 //int eliminarRepetidos(char cadena[], char cadenaAux[]);
 
 
@@ -32,7 +32,7 @@ int main(void) {
 	ingresarCadena(cadena, TAM, "Ingrese cadena de caracteres:\n");
 	separarCadena(cadena, cadenaAux);
 	//eliminarRepetidos(cadena, cadenaAux);
-	printf("1) %s\n\n", cadena);
+	//printf("1) %s\n\n", cadena);
 	system("pause");
 	return 0;
 }
@@ -50,6 +50,17 @@ void ingresarCadena(char cadena[], int n, char mensaje[]) {
 			;
 }
 
+void separarCadena(char cadena[], char cadenaAux[]) {
+	int longitud = strlen(cadena);
+	
+	
+}
+
+
+
+
+
+/*
 int separarCadena(char cadena[], char cadenaAux[]) {
 	strcpy(cadenaAux, cadena);
 	int longitud = strlen(cadenaAux);
@@ -74,7 +85,7 @@ int separarCadena(char cadena[], char cadenaAux[]) {
 }
 
 
-
+*/
 /*
 int eliminarRepetidos(char cadena[]) {
 	int longitud = strlen(cadena);

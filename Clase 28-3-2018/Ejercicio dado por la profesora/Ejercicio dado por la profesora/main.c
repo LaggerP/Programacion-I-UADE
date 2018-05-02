@@ -13,13 +13,15 @@
 #define inf 10
 
 void cargarA(int[], int);
+void mostrar(int v[], int c);
+void ordenar(int v[], int c);
 
 int main(void) {
 	
 	int vector[TAM];
 	srand((unsigned int)time(NULL));
 	cargarA(vector, TAM);
-	ordernar(vector, TAM);
+	ordenar(vector, TAM);
 	mostrar(vector, TAM);
 	system("pause");
 	return 0;
@@ -32,33 +34,32 @@ void cargarA(int v[], int c) {
 	}
 }
 
-
-/*
-
-Busqueda binaria planteada por la profesora:
-
-
-	int busquedaBinaria(int v[], int c, int dato_a_buscar) {
-		int pos = -1;
-		int ini = 0; //posicion inicial del vector
-		int fin = c - 1; //posicion final del vector
-		int medio;
-		while (ini <= fin && pos == -1) {
-			medio = (ini + fin) / 2;
-			if (v[medio] == dato_a_buscar) {
-				pos = medio;
+void ordenar(int v[], int c) {
+	int i, j;
+	int aux;
+	for (i = 0; i < c; i++) {
+		for (j = 0; j < c - 1; j++) {
+			if (v[j] > v[j + 1]) {
+				aux = v[j];
+				v[j] = v[j + 1];
+				v[j + 1] = aux;
 			}
-			else if (dato_a_buscar < v[medio]) {
-				fin = medio - 1;
-			}
-			else
-				ini = medio + 1;
 		}
-		return pos;
 	}
+}
 
-
-*/
+void mostrar(int v[], int c) {
+	int i,j, numeroRepite=0;
+	for (i = 0; i < c; i++) {
+		for (j = 0; i < c; i++) {
+			if (v[i] == v[j]) {
+				numeroRepite++;
+			}
+			printf("%d\n", v[i]);
+		}
+	}
+	printf("Cantidad de veces que se repite un numero: %d \n\n\n\n", numeroRepite);
+}
 
 //numeros reales no pueden buscarse por igualdad. Solo por mayor y menores
 
