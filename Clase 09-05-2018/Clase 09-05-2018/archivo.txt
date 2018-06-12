@@ -1,0 +1,15 @@
+a
+
+DNI: 2
+Fecha nacimiento: 2/2/-858993460
+DNI: 2
+
+DNI: 404040
+Fecha nacimiento: 11/11/11
+Fecha nacimiento: 2/2/-85899346
+DNI: 0
+Fecha nacimiento: 2/2/2
+b
+
+DNI: 1234
+Fecha nacimiento: 1/1/1

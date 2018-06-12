@@ -1,0 +1,24 @@
+Primero, Uno
+111111
+E
+08:01
+Segundo, Dos
+222222
+E
+08:12
+Tercero, Tres
+333333
+E
+08:21
+Primero, Uno
+111111
+S
+10:15
+Segundo, Dos
+222222
+S
+10:16
+Cuarto, Cuatro
+444444
+S
+10:35
