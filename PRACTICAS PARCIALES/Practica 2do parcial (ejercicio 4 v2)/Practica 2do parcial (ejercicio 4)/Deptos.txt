@@ -1,0 +1,32 @@
+Casa
+A
+Domicilio 1
+2
+S
+10
+2000
+100000
+Departamento
+B
+Domicilio 2
+3
+N
+4
+1000
+200000
+Casa
+A
+Domicilio 4
+4
+S
+30
+1500
+1000000
+Casa 
+C
+Domicilio 3
+1
+N
+5
+2300
+800000
