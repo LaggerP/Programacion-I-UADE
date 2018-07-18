@@ -1,0 +1,27 @@
+Sujeto UNO
+E
+08:00
+Sujeto DOS
+E
+08:00
+Sujeto TRES
+E
+08:00
+Sujeto CUATRO
+S
+07:00
+Sujeto UNO
+S
+20:00
+Sujeto CINCO
+E
+08:00
+Sujeto TRES
+S
+19:00
+Sujeto DOS
+E
+15:00
+Sujeto CINCO
+S
+10:10

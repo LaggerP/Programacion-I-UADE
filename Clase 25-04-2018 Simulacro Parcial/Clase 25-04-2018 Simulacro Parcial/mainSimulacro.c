@@ -92,6 +92,7 @@ int altas(producto v[], int c) {
 		printf("Ingrese precio: \n");
 		scanf("%d", &v[c].precio);
 		fgetc(stdin);
+
 		c++;
 		if (c < LARGO)
 			ingresarCadena(descripcionAux, TAM, "Descripcion producto (enter para finalizar):\n ");
